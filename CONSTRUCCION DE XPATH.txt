@@ -1,0 +1,62 @@
+CONSTRUCCION DE XPATH
+
+SENCILLO: 
+//button[@class='card-item']
+//etiquetaDeSuNivel[@Atributo='XYZ']
+
+COMPUESTO CUANDO DE LA MANERA SENCILLA HAY VARIOS IGUALES: 
+((//div[@class='list-item'])//button)[1]
+((//etiquetaNivelSuperior[@Atributo='XYZ'])//EtiquetaDeSuNivel)[NumeroDeItemRepetido]
+
+BUSCANDO EL TEXTO DEL BOTON: 
+//button[contains(text(),'Text in your webpage')]
+
+BUSCANDO EL TEXTO DE OTRA MANERA MAS DIRECTA: 
+//EtiquetaSuperior[@Atributo='valor']//Etiqueta[text()='texto xyz']
+//div[@class='homepage-hero']//a[text()='Enroll now'] 
+//td[@id='state-1']//button[text()=' Trámite documental ']
+
+
+
+/html/body/adpe-root/adpe-welcome/div/adpe-sidenav/mat-sidenav-container/mat-sidenav-content/mat-sidenav-container/mat-sidenav-content/adpe-account-features/div/div/div[1]/form/div[4]/div[2]/div[2]/select[2]/option[2]
+//option[@value='01']
+
+//div[@class='modalCargando ng-star-inserted']
+/html/body/div[2]/div[3]/div/mat-dialog-container/adpe-modal-global/div
+
+
+((//select[@formcontrolname='featuresEntityType'])//option)[2]
+
+((//div[@class='card card-sideNav ng-star-inserted'])//div)[3]
+//div[@class='card card-sideNav ng-star-inserted']
+//*[@id="reserva"]
+/html/body/adpe-root/adpe-welcome/div/adpe-sidenav/mat-sidenav-container/mat-sidenav/div/div[3]
+
+
+/html/body/adpe-root/adpe-welcome/div/adpe-sidenav/mat-sidenav-container/mat-sidenav/div/div[3]
+
+((//div[@class='form-container ng-star-inserted'])//select)[1]
+//mat-radio-button[@value='Si']
+
+((//mat-option[@role='option'])//select)[1]
+
+//div[@class='button-ok-modal']
+//div[@class='content-modal-loading padding-sides-10']
+/html/body/div[2]/div[3]/div/mat-dialog-container/adpe-modal-global/div/div[4]/button
+
+/html/body/div[2]/div[2]/div/div/mat-option[1]
+/html/body/div[2]/div[2]/div/div/mat-option[1]
+/html/body/div[2]/div[4]/div/div/mat-option[1]
+/html/body/div[2]/div[2]/div/div/mat-option[1]/span
+
+//select[@formcontrolname='featuresAccountMasterType']
+//option[@value='04']
+//select[@formcontrolname='featuresResourceType']
+//option[@value='01']
+
+//div[@class='form-container ng-star-inserted']
+
+//div[@class='mat-radio-label']
+
+//button[@class='card-item']
+
